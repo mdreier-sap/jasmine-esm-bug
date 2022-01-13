@@ -1,0 +1,19 @@
+{
+  "name": "jasmine-esm-bug",
+  "version": "1.0.0",
+  "description": "Demo for Bug of Jasmine incorrectly loading ESM modules",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "fetch-mock": "^9.11.0",
+    "jasmine": "^4.0.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
+}
